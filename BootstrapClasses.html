@@ -1,1321 +1,1922 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>
-        CSS - Properties
-    </title>
-    <style>
-        div{
-            padding-top: 5px;
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-bottom: 5px;
-        }
-    </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Classes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>100 CSS Properites</h1>
-   <div> 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Sr.</th>
-                <th>Property</th>
-                <th>Usage</th>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>accent-color</td>
-                <td>Specifies an accent color for user-interface controls</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>align-content</td>
-                <td>Specifies the alignment between the lines inside a flexible container when the items do not use all
-                    available space</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>align-items</td>
-                <td>Specifies the alignment for items inside a flexible container</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>align-self</td>
-                <td>Specifies the alignment for selected items inside a flexible container</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>all</td>
-                <td>Resets all properties (except unicode-bidi and direction)</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>animation</td>
-                <td>A shorthand property for all the animation-* properties</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>animation-delay</td>
-                <td>Specifies a delay for the start of an animation</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>animation-direction</td>
-                <td>Specifies whether an animation should be played forwards, backwards or in alternate cycles</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>animation-duration</td>
-                <td>Specifies how long an animation should take to complete one cycle</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>animation-fill-mode</td>
-                <td>Specifies a style for the element when the animation is not playing (before it starts, after it
-                    ends, or both)</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>animation-iteration-count</td>
-                <td>Specifies the number of times an animation should be played</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>animation-name</td>
-                <td>Specifies a name for the @keyframes animation</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>animation-play-state</td>
-                <td>Specifies whether the animation is running or paused</td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>animation-timing-function</td>
-                <td>Specifies the speed curve of an animation</td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>aspect-ratio</td>
-                <td>Specifies preferred aspect ratio of an element</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>backdrop-filter</td>
-                <td>Defines a graphical effect to the area behind an element</td>
-            </tr>
-            <tr>
-                <td>17</td>
-                <td>backface-visibility</td>
-                <td>Defines whether or not the back face of an element should be visible when facing the user</td>
-            </tr>
-            <tr>
-                <td>18</td>
-                <td>background</td>
-                <td>A shorthand property for all the background-* properties</td>
-            </tr>
-            <tr>
-                <td>19</td>
-                <td>background-attachment</td>
-                <td>Sets whether a background image scrolls with the rest of the page, or is fixed</td>
-            </tr>
-            <tr>
-                <td>20</td>
-                <td>background-blend-mode</td>
-                <td>Specifies the blending mode of each background layer (color/image)</td>
-            </tr>
-            <tr>
-                <td>21</td>
-                <td>background-clip</td>
-                <td>Defines how far the background (color or image) should extend within an element</td>
-            </tr>
-            <tr>
-                <td>22</td>
-                <td>background-color</td>
-                <td>Specifies the background color of an element</td>
-            </tr>
-            <tr>
-                <td>23</td>
-                <td>background-image</td>
-                <td>Specifies one or more background images for an element</td>
-            </tr> 
-            <tr>
-                <td>24</td>
-                <td>background-origin</td>
-                <td>Specifies the origin position of a background image</td>
-            </tr>
-            <tr>
-                <td>25</td>
-                <td>background-position</td>
-                <td>Specifies the position of a background image</td>
-            </tr>
-            <tr>
-                <td>26</td>
-                <td>background-position-x</td>
-                <td>Specifies the position of a background image on x-axis</td>
-            </tr>
-            <tr>
-                <td>27</td>
-                <td>background-position-y</td>
-                <td>Specifies the position of a background image on y-axis</td>
-            </tr>
-            <tr>
-                <td>28</td>
-                <td>background-repeat</td>
-                <td>Sets if/how a background image will be repeated</td>
-            </tr>
-            <tr>
-                <td>29</td>
-                <td>background-size</td>
-                <td>Specifies the size of the background images</td>
-            </tr>
-            <tr>
-                <td>30</td>
-                <td>border</td>
-                <td>A shorthand property for border-width, border-style and border-color</td>
-            </tr>
-            <tr>
-                <td>31</td>
-                <td>border-bottom</td>
-                <td>A shorthand property for border-bottom-width, border-bottom-style and border-bottom-color</td>
-            </tr>
-            <tr>
-                <td>32</td>
-                <td>border-bottom-color</td>
-                <td>Sets the color of the bottom border</td>
-            </tr>
-            <tr>
-                <td>33</td>
-                <td>border-bottom-left-radius</td>
-                <td>Defines the radius of the border of the bottom-left corner</td>
-            </tr>
-            <tr>
-                <td>34</td>
-                <td>border-bottom-right-radius</td>
-                <td>Defines the radius of the border of the bottom-right corner</td>
-            </tr>
-            <tr>
-                <td>35</td>
-                <td>border-bottom-style</td>
-                <td>Sets the style of the bottom border</td>
-            </tr>
-            <tr>
-                <td>36</td>
-                <td>border-bottom-width</td>
-                <td>Sets the width of the bottom border</td>
-            </tr>
-            <tr>
-                <td>37</td>
-                <td>border-collapse</td>
-                <td>Sets whether table borders should collapse into a single border or be separated</td>
-            </tr>
-            <tr>
-                <td>38</td>
-                <td>border-color</td>
-                <td>Sets the color of the four borders</td>
-            </tr>
-            <tr>
-                <td>39</td>
-                <td>border-image</td>
-                <td>A shorthand property for all the border-image-* properties</td>
-            </tr>
-            <tr>
-                <td>40</td>
-                <td>border-image-outset</td>
-                <td>Specifies the amount by which the border image area extends beyond the border box</td>
-            </tr>
-            <tr>
-                <td>41</td>
-                <td>border-image-repeat</td>
-                <td>Specifies whether the border image should be repeated, rounded or stretched</td>
-            </tr>
-            <tr>
-                <td>42</td>
-                <td>border-image-slice</td>
-                <td>Specifies how to slice the border image</td>
-            </tr>
-            <tr>
-                <td>43</td>
-                <td>border-image-source</td>
-                <td>Specifies the path to the image to be used as a border</td>
-            </tr>
-            <tr>
-                <td>44</td>
-                <td>border-image-width</td>
-                <td>Specifies the width of the border image</td>
-            </tr>
-            <tr>
-                <td>45</td>
-                <td>border-left</td>
-                <td>A shorthand property for all the border-left-* properties</td>
-            </tr>
-            <tr>
-                <td>46</td>
-                <td>border-left-color</td>
-                <td>Sets the color of the left border</td>
-            </tr>
-            <tr>
-                <td>47</td>
-                <td>border-left-style</td>
-                <td>Sets the style of the left border</td>
-            </tr>
-            <tr>
-                <td>48</td>
-                <td>border-left-width</td>
-                <td>Sets the width of the left border</td>
-            </tr>
-            <tr>
-                <td>49</td>
-                <td>border-radius</td>
-                <td>A shorthand property for the four border-*-radius properties</td>
-            </tr>
-            <tr>
-                <td>50</td>
-                <td>border-right</td>
-                <td>A shorthand property for all the border-right-* properties</td>
-            </tr>
-            <tr>
-                <td>51</td>
-                <td>border-right-color</td>
-                <td>Sets the color of the right border</td>
-            </tr>
-            <tr>
-                <td>52</td>
-                <td>border-right-style</td>
-                <td>Sets the style of the right border</td>
-            </tr>
-            <tr>
-                <td>53</td>
-                <td>border-right-width</td>
-                <td>Sets the width of the right border</td>
-            </tr>
-            <tr>
-                <td>54</td>
-                <td>border-spacing</td>
-                <td>Sets the distance between the borders of adjacent cells</td>
-            </tr>
-            <tr>
-                <td>55</td>
-                <td>border-style</td>
-                <td>Sets the style of the four borders</td>
-            </tr>
-            <tr>
-                <td>56</td>
-                <td>border-top</td>
-                <td>A shorthand property for border-top-width, border-top-style and border-top-color</td>
-            </tr>
-            <tr>
-                <td>57</td>
-                <td>border-top-color</td>
-                <td>Sets the color of the top border</td>
-            </tr>
-            <tr>
-                <td>58</td>
-                <td>border-top-left-radius</td>
-                <td>Defines the radius of the border of the top-left corner</td>
-            </tr>
-            <tr>
-                <td>59</td>
-                <td>border-top-right-radius</td>
-                <td>Defines the radius of the border of the top-right corner</td>
-            </tr>
-            <tr>
-                <td>60</td>
-                <td>border-top-style</td>
-                <td>Sets the style of the top border</td>
-            </tr>
-            <tr>
-                <td>61</td>
-                <td>border-top-width</td>
-                <td>Sets the width of the top border</td>
-            </tr>
-            <tr>
-                <td>62</td>
-                <td>border-width</td>
-                <td>Sets the width of the four borders</td>
-            </tr>
-            <tr>
-                <td>63</td>
-                <td>bottom</td>
-                <td>Sets the elements position, from the bottom of its parent element</td>
-            </tr>
-            <tr>
-                <td>64</td>
-                <td>box-decoration-break</td>
-                <td>Sets the behavior of the background and border of an element at page-break, or, for in-line
-                    elements, at line-break.</td>
-            </tr>
-            <tr>
-                <td>65</td>
-                <td>box-shadow</td>
-                <td>Attaches one or more shadows to an element</td>
-            </tr>
-            <tr>
-                <td>66</td>
-                <td>box-sizing</td>
-                <td>Defines how the width and height of an element are calculated: should they include padding and
-                    borders, or not</td>
-            </tr>
-            <tr>
-                <td>67</td>
-                <td>break-after</td>
-                <td>Specifies whether or not a page-, column-, or region-break should occur after the specified element
-                </td>
-            </tr>
-            <tr>
-                <td>68</td>
-                <td>break-before</td>
-                <td>Specifies whether or not a page-, column-, or region-break should occur before the specified element
-                </td>
-            </tr>
-            <tr>
-                <td>69</td>
-                <td>break-inside</td>
-                <td>Specifies whether or not a page-, column-, or region-break should occur inside the specified element
-                </td>
-            </tr>
-            <tr>
-                <td>70</td>
-                <td>caption-side</td>
-                <td>Specifies the placement of a table caption</td>
-            </tr>
-            <tr>
-                <td>71</td>
-                <td>caret-color</td>
-                <td>Specifies the color of the cursor (caret) in inputs, textareas, or any element that is editable</td>
-            </tr>
-            <tr>
-                <td>72</td>
-                <td>@charset</td>
-                <td>Specifies the character encoding used in the style sheet</td>
-            </tr>
-            <tr>
-                <td>73</td>
-                <td>clear</td>
-                <td>Specifies what should happen with the element that is next to a floating element</td>
-            </tr>
-            <tr>
-                <td>74</td>
-                <td>clip</td>
-                <td>Clips an absolutely positioned element</td>
-            </tr>
-            <tr>
-                <td>75</td>
-                <td>color</td>
-                <td>Sets the color of text</td>
-            </tr>
-            <tr>
-                <td>76</td>
-                <td>column-count</td>
-                <td>Specifies the number of columns an element should be divided into</td>
-            </tr>
-            <tr>
-                <td>77</td>
-                <td>column-fill</td>
-                <td>Specifies how to fill columns, balanced or not</td>
-            </tr>
-            <tr>
-                <td>78</td>
-                <td>column-gap</td>
-                <td>Specifies the gap between the columns</td>
-            </tr>
-            <tr>
-                <td>79</td>
-                <td>column-rule</td>
-                <td>A shorthand property for all the column-rule-* properties</td>
-            </tr>
-            <tr>
-                <td>80</td>
-                <td>column-rule-color</td>
-                <td>Specifies the color of the rule between columns</td>
-            </tr>
-            <tr>
-                <td>81</td>
-                <td>column-rule-style</td>
-                <td>Specifies the style of the rule between columns</td>
-            </tr>
-            <tr>
-                <td>82</td>
-                <td>column-rule-width</td>
-                <td>Specifies the width of the rule between columns</td>
-            </tr>
-            <tr>
-                <td>83</td>
-                <td>column-span</td>
-                <td>Specifies how many columns an element should span across</td>
-            </tr>
-            <tr>
-                <td>84</td>
-                <td>column-width</td>
-                <td>Specifies the column width</td>
-            </tr>
-            <tr>
-                <td>85</td>
-                <td>columns</td>
-                <td>A shorthand property for column-width and column-count</td>
-            </tr>
-            <tr>
-                <td>86</td>
-                <td>content</td>
-                <td>Used with the :before and :after pseudo-elements, to insert generated content</td>
-            </tr>
-            <tr>
-                <td>87</td>
-                <td>counter-increment</td>
-                <td>Increases or decreases the value of one or more CSS counters</td>
-            </tr>
-            <tr>
-                <td>88</td>
-                <td>counter-reset</td>
-                <td>Creates or resets one or more CSS counters</td>
-            </tr>
-            <tr>
-                <td>89</td>
-                <td>cursor</td>
-                <td>Specifies the mouse cursor to be displayed when pointing over an element</td>
-            </tr>
-            <tr>
-                <td>90</td>
-                <td>direction</td>
-                <td>Specifies the text direction/writing direction</td>
-            </tr>
-            <tr>
-                <td>91</td>
-                <td>display</td>
-                <td>Specifies how a certain HTML element should be displayed</td>
-            </tr>
-            <tr>
-                <td>92</td>
-                <td>empty-cells</td>
-                <td>Specifies whether or not to display borders and background on empty cells in a table</td>
-            </tr>
-            <tr>
-                <td>93</td>
-                <td>filter</td>
-                <td>Defines effects (e.g. blurring or color shifting) on an element before the element is displayed</td>
-            </tr>
-            <tr>
-                <td>94</td>
-                <td>flex</td>
-                <td>A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties</td>
-            </tr>
-            <tr>
-                <td>95</td>
-                <td>flex-basis</td>
-                <td>Specifies the initial length of a flexible item</td>
-            </tr>
-            <tr>
-                <td>96</td>
-                <td>flex-direction</td>
-                <td>Specifies the direction of the flexible items</td>
-            </tr>
-            <tr>
-                <td>97</td>
-                <td>flex-flow</td>
-                <td>A shorthand property for the flex-direction and the flex-wrap properties</td>
-            </tr>
-            <tr>
-                <td>98</td>
-                <td>flex-grow</td>
-                <td>Specifies how much the item will grow relative to the rest</td>
-            </tr>
-            <tr>
-                <td>99</td>
-                <td>flex-shrink</td>
-                <td>Specifies how the item will shrink relative to the rest</td>
-            </tr>
-            <tr>
-                <td>100</td>
-                <td>flex-wrap</td>
-                <td>Specifies whether the flexible items should wrap or not</td>
-            </tr>
-            <tr>
-                <td>101</td>
-                <td>float</td>
-                <td>Specifies whether an element should float to the left, right, or not at all</td>
-            </tr>
-            <tr>
-                <td>102</td>
-                <td>font</td>
-                <td>A shorthand property for the font-style, font-variant, font-weight, font-size/line-height, and the
-                    font-family properties</td>
-            </tr>
-            <tr>
-                <td>103</td>
-                <td>@font-face</td>
-                <td>A rule that allows websites to download and use fonts other than the "web-safe" fonts</td>
-            </tr>
-            <tr>
-                <td>104</td>
-                <td>font-family</td>
-                <td>Specifies the font family for text</td>
-            </tr>
-            <tr>
-                <td>105</td>
-                <td>font-feature-settings</td>
-                <td>Allows control over advanced typographic features in OpenType fonts</td>
-            </tr>
-            <tr>
-                <td>106</td>
-                <td>@font-feature-values</td>
-                <td>Allows authors to use a common name in font-variant-alternate for feature activated differently in
-                    OpenType</td>
-            </tr>
-            <tr>
-                <td>107</td>
-                <td>font-kerning</td>
-                <td>Controls the usage of the kerning information (how letters are spaced)</td>
-            </tr>
-            <tr>
-                <td>108</td>
-                <td>font-language-override</td>
-                <td>Controls the usage of language-specific glyphs in a typeface</td>
-            </tr>
-            <tr>
-                <td>109</td>
-                <td>font-size</td>
-                <td>Specifies the font size of text</td>
-            </tr>
-            <tr>
-                <td>110</td>
-                <td>font-size-adjust</td>
-                <td>Preserves the readability of text when font fallback occurs</td>
-            </tr>
-            <tr>
-                <td>111</td>
-                <td>font-stretch</td>
-                <td>Selects a normal, condensed, or expanded face from a font family</td>
-            </tr>
-            <tr>
-                <td>112</td>
-                <td>font-style</td>
-                <td>Specifies the font style for text</td>
-            </tr>
-            <tr>
-                <td>113</td>
-                <td>font-synthesis</td>
-                <td>Controls which missing typefaces (bold or italic) may be synthesized by the browser</td>
-            </tr>
-            <tr>
-                <td>114</td>
-                <td>font-variant</td>
-                <td>Specifies whether or not a text should be displayed in a small-caps font</td>
-            </tr>
-            <tr>
-                <td>115</td>
-                <td>font-variant-alternates</td>
-                <td>Controls the usage of alternate glyphs associated to alternative names defined in
-                    @font-feature-values</td>
-            </tr>
-            <tr>
-                <td>116</td>
-                <td>font-variant-caps</td>
-                <td>Controls the usage of alternate glyphs for capital letters</td>
-            </tr>
-            <tr>
-                <td>117</td>
-                <td>font-variant-east-asian</td>
-                <td>Controls the usage of alternate glyphs for East Asian scripts (e.g Japanese and Chinese)</td>
-            </tr>
-            <tr>
-                <td>118</td>
-                <td>font-variant-ligatures</td>
-                <td>Controls which ligatures and contextual forms are used in textual content of the elements it applies
-                    to</td>
-            </tr>
-            <tr>
-                <td>119</td>
-                <td>font-variant-numeric</td>
-                <td>Controls the usage of alternate glyphs for numbers, fractions, and ordinal markers</td>
-            </tr>
-            <tr>
-                <td>120</td>
-                <td>font-variant-position</td>
-                <td>Controls the usage of alternate glyphs of smaller size positioned as superscript or subscript
-                    regarding the baseline of the font</td>
-            </tr>
-            <tr>
-                <td>121</td>
-                <td>font-weight</td>
-                <td>Specifies the weight of a font</td>
-            </tr>
-            <tr>
-                <td>122</td>
-                <td>gap</td>
-                <td>A shorthand property for the row-gap and the column-gap properties</td>
-            </tr>
-            <tr>
-                <td>123</td>
-                <td>grid</td>
-                <td>A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas,
-                    grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties</td>
-            </tr>
-            <tr>
-                <td>124</td>
-                <td>grid-area</td>
-                <td>Either specifies a name for the grid item, or this property is a shorthand property for the
-                    grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties</td>
-            </tr>
-            <tr>
-                <td>125</td>
-                <td>grid-auto-columns</td>
-                <td>Specifies a default column size</td>
-            </tr>
-            <tr>
-                <td>126</td>
-                <td>grid-auto-flow</td>
-                <td>Specifies how auto-placed items are inserted in the grid</td>
-            </tr>
-            <tr>
-                <td>127</td>
-                <td>grid-auto-rows</td>
-                <td>Specifies a default row size</td>
-            </tr>
-            <tr>
-                <td>128</td>
-                <td>grid-column</td>
-                <td>A shorthand property for the grid-column-start and the grid-column-end properties</td>
-            </tr>
-            <tr>
-                <td>129</td>
-                <td>grid-column-end</td>
-                <td>Specifies where to end the grid item</td>
-            </tr>
-            <tr>
-                <td>130</td>
-                <td>grid-column-gap</td>
-                <td>Specifies the size of the gap between columns</td>
-            </tr>
-            <tr>
-                <td>131</td>
-                <td>grid-column-start</td>
-                <td>Specifies where to start the grid item</td>
-            </tr>
-            <tr>
-                <td>132</td>
-                <td>grid-gap</td>
-                <td>A shorthand property for the grid-row-gap and grid-column-gap properties</td>
-            </tr>
-            <tr>
-                <td>133</td>
-                <td>grid-row</td>
-                <td>A shorthand property for the grid-row-start and the grid-row-end properties</td>
-            </tr>
-            <tr>
-                <td>134</td>
-                <td>grid-row-end</td>
-                <td>Specifies where to end the grid item</td>
-            </tr>
-            <tr>
-                <td>135</td>
-                <td>grid-row-gap</td>
-                <td>Specifies the size of the gap between rows</td>
-            </tr>
-            <tr>
-                <td>136</td>
-                <td>grid-row-start</td>
-                <td>Specifies where to start the grid item</td>
-            </tr>
-            <tr>
-                <td>137</td>
-                <td>grid-template</td>
-                <td>A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties
-                </td>
-            </tr>
-            <tr>
-                <td>138</td>
-                <td>grid-template-areas</td>
-                <td>Specifies how to display columns and rows, using named grid items</td>
-            </tr>
-            <tr>
-                <td>139</td>
-                <td>grid-template-columns</td>
-                <td>Specifies the size of the columns, and how many columns in a grid layout</td>
-            </tr>
-            <tr>
-                <td>140</td>
-                <td>grid-template-rows</td>
-                <td>Specifies the size of the rows in a grid layout</td>
-            </tr>
-            <tr>
-                <td>141</td>
-                <td>hanging-punctuation</td>
-                <td>Specifies whether a punctuation character may be placed outside the line box</td>
-            </tr>
-            <tr>
-                <td>142</td>
-                <td>height</td>
-                <td>Sets the height of an element</td>
-            </tr>
-            <tr>
-                <td>143</td>
-                <td>hyphens</td>
-                <td>Sets how to split words to improve the layout of paragraphs</td>
-            </tr>
-            <tr>
-                <td>144</td>
-                <td>image-rendering</td>
-                <td>Specifies the type of algorithm to use for image scaling</td>
-            </tr>
-            <tr>
-                <td>145</td>
-                <td>@import</td>
-                <td>Allows you to import a style sheet into another style sheet</td>
-            </tr>
-            <tr>
-                <td>146</td>
-                <td>isolation</td>
-                <td>Defines whether an element must create a new stacking content</td>
-            </tr>
-            <tr>
-                <td>147</td>
-                <td>justify-content</td>
-                <td>Specifies the alignment between the items inside a flexible container when the items do not use all
-                    available space</td>
-            </tr>
-            <tr>
-                <td>148</td>
-                <td>@keyframes</td>
-                <td>Specifies the animation code</td>
-            </tr>
-            <tr>
-                <td>149</td>
-                <td>left</td>
-                <td>Specifies the left position of a positioned element</td>
-            </tr>
-            <tr>
-                <td>150</td>
-                <td>letter-spacing</td>
-                <td>Increases or decreases the space between characters in a text</td>
-            </tr>
-            <tr>
-                <td>151</td>
-                <td>line-break</td>
-                <td>Specifies how/if to break lines</td>
-            </tr>
-            <tr>
-                <td>152</td>
-                <td>line-height</td>
-                <td>Sets the line height</td>
-            </tr>
-            <tr>
-                <td>153</td>
-                <td>list-style</td>
-                <td>Sets all the properties for a list in one declaration</td>
-            </tr>
-            <tr>
-                <td>154</td>
-                <td>list-style-image</td>
-                <td>Specifies an image as the list-item marker</td>
-            </tr>
-            <tr>
-                <td>155</td>
-                <td>list-style-position</td>
-                <td>Specifies the position of the list-item markers (bullet points)</td>
-            </tr>
-            <tr>
-                <td>156</td>
-                <td>list-style-type</td>
-                <td>Specifies the type of list-item marker</td>
-            </tr>
-            <tr>
-                <td>157</td>
-                <td>margin</td>
-                <td>Sets all the margin properties in one declaration</td>
-            </tr>
-            <tr>
-                <td>158</td>
-                <td>margin-bottom</td>
-                <td>Sets the bottom margin of an element</td>
-            </tr>
-            <tr>
-                <td>159</td>
-                <td>margin-left</td>
-                <td>Sets the left margin of an element</td>
-            </tr>
-            <tr>
-                <td>160</td>
-                <td>margin-right</td>
-                <td>Sets the right margin of an element</td>
-            </tr>
-            <tr>
-                <td>161</td>
-                <td>margin-top</td>
-                <td>Sets the top margin of an element</td>
-            </tr>
-            <tr>
-                <td>162</td>
-                <td>mask</td>
-                <td>Hides parts of an element by masking or clipping an image at specific places</td>
-            </tr>
-            <tr>
-                <td>163</td>
-                <td>mask-clip</td>
-                <td>Specifies the mask area</td>
-            </tr>
-            <tr>
-                <td>164</td>
-                <td>mask-composite</td>
-                <td>Represents a compositing operation used on the current mask layer with the mask layers below it</td>
-            </tr>
-            <tr>
-                <td>165</td>
-                <td>mask-image</td>
-                <td>Specifies an image to be used as a mask layer for an element</td>
-            </tr>
-            <tr>
-                <td>166</td>
-                <td>mask-mode</td>
-                <td>Specifies whether the mask layer image is treated as a luminance mask or as an alpha mask</td>
-            </tr>
-            <tr>
-                <td>167</td>
-                <td>mask-origin</td>
-                <td>Specifies the origin position (the mask position area) of a mask layer image</td>
-            </tr>
-            <tr>
-                <td>168</td>
-                <td>mask-position</td>
-                <td>Sets the starting position of a mask layer image (relative to the mask position area)</td>
-            </tr>
-            <tr>
-                <td>169</td>
-                <td>mask-repeat</td>
-                <td>Specifies how the mask layer image is repeated</td>
-            </tr>
-            <tr>
-                <td>170</td>
-                <td>mask-size</td>
-                <td>Specifies the size of a mask layer image</td>
-            </tr>
-            <tr>
-                <td>171</td>
-                <td>mask-type</td>
-                <td>Specifies whether an SVG <mask> element is treated as a luminance mask or as an alpha mask</td>
-            </tr>
-            <tr>
-                <td>172</td>
-                <td>max-height</td>
-                <td>Sets the maximum height of an element</td>
-            </tr>
-            <tr>
-                <td>173</td>
-                <td>max-width</td>
-                <td>Sets the maximum width of an element</td>
-            </tr>
-            <tr>
-                <td>174</td>
-                <td>@media</td>
-                <td>Sets the style rules for different media types/devices/sizes</td>
-            </tr>
-            <tr>
-                <td>175</td>
-                <td>min-height</td>
-                <td>Sets the minimum height of an element</td>
-            </tr>
-            <tr>
-                <td>176</td>
-                <td>min-width</td>
-                <td>Sets the minimum width of an element</td>
-            </tr>
-            <tr>
-                <td>177</td>
-                <td>mix-blend-mode</td>
-                <td>Specifies how an element's content should blend with its direct parent background</td>
-            </tr>
-            <tr>
-                <td>178</td>
-                <td>object-fit</td>
-                <td>Specifies how the contents of a replaced element should be fitted to the box established by its used
-                    height and width</td>
-            </tr>
-            <tr>
-                <td>179</td>
-                <td>object-position</td>
-                <td>Specifies the alignment of the replaced element inside its box</td>
-            </tr>
-            <tr>
-                <td>180</td>
-                <td>opacity</td>
-                <td>Sets the opacity level for an element</td>
-            </tr>
-            <tr>
-                <td>181</td>
-                <td>order</td>
-                <td>Sets the order of the flexible item, relative to the rest</td>
-            </tr>
-            <tr>
-                <td>182</td>
-                <td>orphans</td>
-                <td>Sets the minimum number of lines that must be left at the bottom of a page or column</td>
-            </tr>
-            <tr>
-                <td>183</td>
-                <td>outline</td>
-                <td>A shorthand property for the outline-width, outline-style, and the outline-color properties</td>
-            </tr>
-            <tr>
-                <td>184</td>
-                <td>outline-color</td>
-                <td>Sets the color of an outline</td>
-            </tr>
-            <tr>
-                <td>185</td>
-                <td>outline-offset</td>
-                <td>Offsets an outline, and draws it beyond the border edge</td>
-            </tr>
-            <tr>
-                <td>186</td>
-                <td>outline-style</td>
-                <td>Sets the style of an outline</td>
-            </tr>
-            <tr>
-                <td>187</td>
-                <td>outline-width</td>
-                <td>Sets the width of an outline</td>
-            </tr>
-            <tr>
-                <td>188</td>
-                <td>overflow</td>
-                <td>Specifies what happens if content overflows an element's box</td>
-            </tr>
-            <tr>
-                <td>189</td>
-                <td>overflow-wrap</td>
-                <td>Specifies whether or not the browser can break lines with long words, if they overflow the container
-                </td>
-            </tr>
-            <tr>
-                <td>190</td>
-                <td>overflow-x</td>
-                <td>Specifies whether or not to clip the left/right edges of the content, if it overflows the element's
-                    content area</td>
-            </tr>
-            <tr>
-                <td>191</td>
-                <td>overflow-y</td>
-                <td>Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's
-                    content area</td>
-            </tr>
-            <tr>
-                <td>192</td>
-                <td>padding</td>
-                <td>A shorthand property for all the padding-* properties</td>
-            </tr>
-            <tr>
-                <td>193</td>
-                <td>padding-bottom</td>
-                <td>Sets the bottom padding of an element</td>
-            </tr>
-            <tr>
-                <td>194</td>
-                <td>padding-left</td>
-                <td>Sets the left padding of an element</td>
-            </tr>
-            <tr>
-                <td>195</td>
-                <td>padding-right</td>
-                <td>Sets the right padding of an element</td>
-            </tr>
-            <tr>
-                <td>196</td>
-                <td>padding-top</td>
-                <td>Sets the top padding of an element</td>
-            </tr>
-            <tr>
-                <td>197</td>
-                <td>page-break-after</td>
-                <td>Sets the page-break behavior after an element</td>
-            </tr>
-            <tr>
-                <td>198</td>
-                <td>page-break-before</td>
-                <td>Sets the page-break behavior before an element</td>
-            </tr>
-            <tr>
-                <td>199</td>
-                <td>page-break-inside</td>
-                <td>Sets the page-break behavior inside an element</td>
-            </tr>
-            <tr>
-                <td>200</td>
-                <td>paint-order</td>
-                <td>Sets the order of how an SVG element or text is painted.</td>
-            </tr>
-            <tr>
-                <td>201</td>
-                <td>perspective</td>
-                <td>Gives a 3D-positioned element some perspective</td>
-            </tr>
-            <tr>
-                <td>202</td>
-                <td>perspective-origin</td>
-                <td>Defines at which position the user is looking at the 3D-positioned element</td>
-            </tr>
-            <tr>
-                <td>203</td>
-                <td>pointer-events</td>
-                <td>Defines whether or not an element reacts to pointer events</td>
-            </tr>
-            <tr>
-                <td>204</td>
-                <td>position</td>
-                <td>Specifies the type of positioning method used for an element (static, relative, absolute or fixed)
-                </td>
-            </tr>
-            <tr>
-                <td>205</td>
-                <td>quotes</td>
-                <td>Sets the type of quotation marks for embedded quotations</td>
-            </tr>
-            <tr>
-                <td>206</td>
-                <td>resize</td>
-                <td>Defines if (and how) an element is resizable by the user</td>
-            </tr>
-            <tr>
-                <td>207</td>
-                <td>right</td>
-                <td>Specifies the right position of a positioned element</td>
-            </tr>
-            <tr>
-                <td>208</td>
-                <td>rotate</td>
-                <td>Specifies the rotation of an element</td>
-            </tr>
-            <tr>
-                <td>209</td>
-                <td>row-gap</td>
-                <td>Specifies the gap between the grid rows</td>
-            </tr>
-            <tr>
-                <td>210</td>
-                <td>scale</td>
-                <td>Specifies the size of an element by scaling up or down</td>
-            </tr>
-            <tr>
-                <td>211</td>
-                <td>scroll-behavior</td>
-                <td>Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight
-                    jump</td>
-            </tr>
-            <tr>
-                <td>212</td>
-                <td>tab-size</td>
-                <td>Specifies the width of a tab character</td>
-            </tr>
-            <tr>
-                <td>213</td>
-                <td>table-layout</td>
-                <td>Defines the algorithm used to lay out table cells, rows, and columns</td>
-            </tr>
-            <tr>
-                <td>214</td>
-                <td>text-align</td>
-                <td>Specifies the horizontal alignment of text</td>
-            </tr>
-            <tr>
-                <td>215</td>
-                <td>text-align-last</td>
-                <td>Describes how the last line of a block or a line right before a forced line break is aligned when
-                    text-align is "justify"</td>
-            </tr>
-            <tr>
-                <td>216</td>
-                <td>text-combine-upright</td>
-                <td>Specifies the combination of multiple characters into the space of a single character</td>
-            </tr>
-            <tr>
-                <td>217</td>
-                <td>text-decoration</td>
-                <td>Specifies the decoration added to text</td>
-            </tr>
-            <tr>
-                <td>218</td>
-                <td>text-decoration-color</td>
-                <td>Specifies the color of the text-decoration</td>
-            </tr>
-            <tr>
-                <td>219</td>
-                <td>text-decoration-line</td>
-                <td>Specifies the type of line in a text-decoration</td>
-            </tr>
-            <tr>
-                <td>220</td>
-                <td>text-decoration-style</td>
-                <td>Specifies the style of the line in a text decoration</td>
-            </tr>
-            <tr>
-                <td>221</td>
-                <td>text-decoration-thickness</td>
-                <td>Specifies the thickness of the decoration line</td>
-            </tr>
-            <tr>
-                <td>222</td>
-                <td>text-emphasis</td>
-                <td>Applies emphasis marks to text</td>
-            </tr>
-            <tr>
-                <td>223</td>
-                <td>text-indent</td>
-                <td>Specifies the indentation of the first line in a text-block</td>
-            </tr>
-            <tr>
-                <td>224</td>
-                <td>text-justify</td>
-                <td>Specifies the justification method used when text-align is "justify"</td>
-            </tr>
-            <tr>
-                <td>225</td>
-                <td>text-orientation</td>
-                <td>Defines the orientation of characters in a line</td>
-            </tr>
-            <tr>
-                <td>226</td>
-                <td>text-overflow</td>
-                <td>Specifies what should happen when text overflows the containing element</td>
-            </tr>
-            <tr>
-                <td>227</td>
-                <td>text-shadow</td>
-                <td>Adds shadow to text</td>
-            </tr>
-            <tr>
-                <td>228</td>
-                <td>text-transform</td>
-                <td>Controls the capitalization of text</td>
-            </tr>
-            <tr>
-                <td>229</td>
-                <td>text-underline-position</td>
-                <td>Specifies the position of the underline which is set using the text-decoration property</td>
-            </tr>
-            <tr>
-                <td>230</td>
-                <td>top</td>
-                <td>Specifies the top position of a positioned element</td>
-            </tr>
-            <tr>
-                <td>231</td>
-                <td>transform</td>
-                <td>Applies a 2D or 3D transformation to an element</td>
-            </tr>
-            <tr>
-                <td>232</td>
-                <td>transform-origin</td>
-                <td>Allows you to change the position on transformed elements</td>
-            </tr>
-            <tr>
-                <td>233</td>
-                <td>transform-style</td>
-                <td>Specifies how nested elements are rendered in 3D space</td>
-            </tr>
-            <tr>
-                <td>234</td>
-                <td>transition</td>
-                <td>A shorthand property for all the transition-* properties</td>
-            </tr>
-            <tr>
-                <td>235</td>
-                <td>transition-delay</td>
-                <td>Specifies when the transition effect will start</td>
-            </tr>
-            <tr>
-                <td>236</td>
-                <td>transition-duration</td>
-                <td>Specifies how many seconds or milliseconds a transition effect takes to complete</td>
-            </tr>
-            <tr>
-                <td>237</td>
-                <td>transition-property</td>
-                <td>Specifies the name of the CSS property the transition effect is for</td>
-            </tr>
-            <tr>
-                <td>238</td>
-                <td>transition-timing-function</td>
-                <td>Specifies the speed curve of the transition effect</td>
-            </tr>
-            <tr>
-                <td>239</td>
-                <td>translate</td>
-                <td>Specifies the position of an element</td>
-            </tr>
-            <tr>
-                <td>240</td>
-                <td>unicode-bidi</td>
-                <td>Used together with the direction property to set or return whether the text should be overridden to
-                    support multiple languages in the same document</td>
-            </tr>
-            <tr>
-                <td>241</td>
-                <td>user-select</td>
-                <td>Specifies whether the text of an element can be selected</td>
-            </tr>
-            <tr>
-                <td>242</td>
-                <td>vertical-align</td>
-                <td>Sets the vertical alignment of an element</td>
-            </tr>
-            <tr>
-                <td>243</td>
-                <td>visibility</td>
-                <td>Specifies whether or not an element is visible</td>
-            </tr>
-            <tr>
-                <td>244</td>
-                <td>white-space</td>
-                <td>Specifies how white-space inside an element is handled</td>
-            </tr>
-            <tr>
-                <td>245</td>
-                <td>widows</td>
-                <td>Sets the minimum number of lines that must be left at the top of a page or column</td>
-            </tr>
-            <tr>
-                <td>246</td>
-                <td>width</td>
-                <td>Sets the width of an element</td>
-            </tr>
-            <tr>
-                <td>247</td>
-                <td>word-break</td>
-                <td>Specifies how words should break when reaching the end of a line</td>
-            </tr>
-            <tr>
-                <td>248</td>
-                <td>word-spacing</td>
-                <td>Increases or decreases the space between words in a text</td>
-            </tr>
-            <tr>
-                <td>249</td>
-                <td>word-wrap</td>
-                <td>Allows long, unbreakable words to be broken and wrap to the next line</td>
-            </tr>
-            <tr>
-                <td>250</td>
-                <td>writing-mode</td>
-                <td>Specifies whether lines of text are laid out horizontally or vertically</td>
-            </tr>
-            <tr>
-                <td>251</td>
-                <td>z-index</td>
-                <td>Sets the stack order of a positioned element</td>
-            </tr>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Implementation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="BootstrapClasses.html">Bootstrap Classes</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div class="container-">
+        <h1>Complete List of All Bootstrap Classes
+        </h1>
+        <p>Complete list of all Bootstrap classes with description and category:
+        </p>
+        <table class="table border">
+            <thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th class="col-2">Class</th>
+                    <th>Description</th>
+                    <th class="col-2">Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <td>1</td>
+                    <td><code>.active</code></td>
+                    <td>Adds a white text color to the active link in a navbar.</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>2</td>
+                    <td><code>.active</code></td>
+                    <td>Adds a blue background color to the active list item in a list group</td>
+                    <td>List Groups</td>
+                </tr>
+                <tr> <td>3</td>
+                    <td><code>.active</code></td>
+                    <td>Adds a dark-blue background color to simulate a "pressed" button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>4</td>
+                    <td><code>.active</code></td>
+                    <td>Adds a blue background color to the active dropdown item in a dropdown</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>5</td>
+                    <td><code>.active</code></td>
+                    <td>Adds a blue background color to the active pagination link (to highlight the current page)</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>6</td>
+                    <td><code>.active</code></td>
+                    <td>Displays/shows the current carousel item</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>7</td>
+                    <td><code>.alert</code></td>
+                    <td>Creates an alert message box</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>8</td>
+                    <td><code>.alert-danger</code></td>
+                    <td>Red alert. Indicates a dangerous or potentially negative action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>9</td>
+                    <td><code>.alert-dark</code></td>
+                    <td>Dark alert. Dark grey alert box</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>10</td>
+                    <td><code>.alert-dismissible</code></td>
+                    <td>Indicates a closable alert box. Together with the .close class, this class is used to close the
+                        alert (adds extra padding)</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>11</td>
+                    <td><code>.alert-heading</code></td>
+                    <td>Adds color:inherit to the specified element</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>12</td>
+                    <td><code>.alert-info</code></td>
+                    <td>Teal alert. Indicates a neutral informative change or action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>13</td>
+                    <td><code>.alert-light</code></td>
+                    <td>Light alert. Light grey alert box</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>14</td>
+                    <td><code>.alert-link</code></td>
+                    <td>Used on links inside alerts to provide matching colored links</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>15</td>
+                    <td><code>.alert-primary</code></td>
+                    <td>Blue alert. Indicates an important action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>16</td>
+                    <td><code>.alert-secondary</code></td>
+                    <td>Grey alert. Indicates a "less" important action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>17</td>
+                    <td><code>.alert-success</code></td>
+                    <td>Green alert. Indicates a successful or positive action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>18</td>
+                    <td><code>.alert-warning</code></td>
+                    <td>Yellow alert. Indicates caution should be taken with this action</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>19</td>
+                    <td><code>.align-baseline</code></td>
+                    <td>The element is aligned with the baseline of the parent. This is default</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>20</td>
+                    <td><code>.align-bottom</code></td>
+                    <td>The element is aligned with the lowest element on the line</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>21</td>
+                    <td><code>.align-middle</code></td>
+                    <td>The element is placed in the middle of the parent element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>22</td>
+                    <td><code>.align-top</code></td>
+                    <td>The element is aligned with the top of the tallest element on the line</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>23</td>
+                    <td><code>.align-text-top</code></td>
+                    <td>The element is aligned with the top of the parent element's font</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>24</td>
+                    <td><code>.align-text-bottom</code></td>
+                    <td>The element is aligned with the bottom of the parent element's font</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>25</td>
+                    <td><code>.align-content-around</code></td>
+                    <td>Align gathered items "around"</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>26</td>
+                    <td><code>.align-content-*-around</code></td>
+                    <td>Align gathered items "around" on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>27</td>
+                    <td><code>.align-content-center</code></td>
+                    <td>Align gathered items in the center</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>28</td>
+                    <td><code>.align-content-*-center</code></td>
+                    <td>Align gathered items in the center on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>29</td>
+                    <td><code>.align-content-end</code></td>
+                    <td>Align gathered items at the end</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>30</td>
+                    <td><code>.align-content-*-end</code></td>
+                    <td>Align gathered items at the end on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>31</td>
+                    <td><code>.align-content-start</code></td>
+                    <td>Align gathered items from the start</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>32</td>
+                    <td><code>.align-content-*-start</code></td>
+                    <td>Align gathered items from the start on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>33</td>
+                    <td><code>.align-content-stretch</code></td>
+                    <td>Stretch gathered items</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>34</td>
+                    <td><code>.align-content-*-stretch</code></td>
+                    <td>Stretch gathered items on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>35</td>
+                    <td><code>.align-items-start</code></td>
+                    <td>Align single rows of items from the start</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>36</td>
+                    <td><code>.align-items-*-start</code></td>
+                    <td>Align single rows of items from the start on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>37</td>
+                    <td><code>.align-items-end</code></td>
+                    <td>Align single rows of items at the end</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>38</td>
+                    <td><code>.align-items-*-end</code></td>
+                    <td>Align single rows of items at the end on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>39</td>
+                    <td><code>.align-items-center</code></td>
+                    <td>Align single rows of items in the center</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>40</td>
+                    <td><code>.align-items-*-center</code></td>
+                    <td>Align single rows of items in the center on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>41</td>
+                    <td><code>.align-items-baseline</code></td>
+                    <td>Align single rows of items at the baseline</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>42</td>
+                    <td><code>.align-items-*-baseline</code></td>
+                    <td>Align single rows of items at the baseline on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>43</td>
+                    <td><code>.align-items-stretch</code></td>
+                    <td>Stretch single rows of items</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>44</td>
+                    <td><code>.align-items-*-stretch</code></td>
+                    <td>Stretch single rows of items on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>45</td>
+                    <td><code>.align-self-start</code></td>
+                    <td>Align a flex item from the start</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>46</td>
+                    <td><code>.align-self-*-start</code></td>
+                    <td>Align a flex item from the start on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>47</td>
+                    <td><code>.align-self-end</code></td>
+                    <td>Align a flex item at the end</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>48</td>
+                    <td><code>.align-self-*-end</code></td>
+                    <td>Align a flex item at the end on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>49</td>
+                    <td><code>.align-self-center</code></td>
+                    <td>Align a flex item in the center</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>50</td>
+                    <td><code>.align-self-*-center</code></td>
+                    <td>Align a flex item in the center on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>51</td>
+                    <td><code>.align-self-baseline</code></td>
+                    <td>Align a flex item at the baseline</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>52</td>
+                    <td><code>.align-self-*-baseline</code></td>
+                    <td>Align a flex item at the baseline on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>53</td>
+                    <td><code>.align-self-stretch</code></td>
+                    <td>Stretch a flex item</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>54</td>
+                    <td><code>.align-self-*-stretch</code></td>
+                    <td>Stretch a flex item on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>55</td>
+                    <td><code>.badge</code></td>
+                    <td>Creates a circular badge (grey circle - often used as a numerical indicator)</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>56</td>
+                    <td><code>.badge-danger</code></td>
+                    <td>Red badge. Indicates a dangerous or potentially negative action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>57</td>
+                    <td><code>.badge-dark</code></td>
+                    <td>Dark badge. Dark grey alert box</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>58</td>
+                    <td><code>.badge-info</code></td>
+                    <td>Teal badge. Indicates a neutral informative change or action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>59</td>
+                    <td><code>.badge-light</code></td>
+                    <td>Light badge. Light grey alert box</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>60</td>
+                    <td><code>.badge-pill</code></td>
+                    <td>Makes a badge more round</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>61</td>
+                    <td><code>.badge-primary</code></td>
+                    <td>Blue badge. Indicates an important action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>62</td>
+                    <td><code>.badge-secondary</code></td>
+                    <td>Grey badge. Indicates a "less" important action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>63</td>
+                    <td><code>.badge-success</code></td>
+                    <td>Green badge. Indicates a successful or positive action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>64</td>
+                    <td><code>.badge-warning</code></td>
+                    <td>Yellow badge. Indicates caution should be taken with this action</td>
+                    <td>Badges</td>
+                </tr>
+                <tr> <td>65</td>
+                    <td><code>.bg-danger</code></td>
+                    <td>Adds a red background color to an element. Represents danger or a negative action</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>66</td>
+                    <td><code>.bg-dark</code></td>
+                    <td>Adds a dark grey background color to an element</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>67</td>
+                    <td><code>.bg-info</code></td>
+                    <td>Adds a teal background color to an element. Represents some information</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>68</td>
+                    <td><code>.bg-light</code></td>
+                    <td>Adds a light grey background color to an element</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>69</td>
+                    <td><code>.bg-primary</code></td>
+                    <td>Adds a blue background color to an element. Represents something important</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>70</td>
+                    <td><code>.bg-secondary</code></td>
+                    <td>Adds a grey background color to an element. Indicates a "less" important action</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>71</td>
+                    <td><code>.bg-success</code></td>
+                    <td>Adds a green background color to an element. Indicates success or a positive action</td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>72</td>
+                    <td><code>.bg-warning</code></td>
+                    <td>Adds a yellow/orange background color to an element. Represents a warning or a negative action
+                    </td>
+                    <td>Colors</td>
+                </tr>
+                <tr> <td>73</td>
+                    <td><code>.blockquote</code></td>
+                    <td>Styles quoted blocks of content from another source (adds a larger font-size (1.25rem))</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>74</td>
+                    <td><code>.blockquote-footer</code></td>
+                    <td>Styles the source title inside the blockquote (light grey text with indentation)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>75</td>
+                    <td><code>.border</code></td>
+                    <td>Adds a border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>76</td>
+                    <td><code>.border-bottom-0</code></td>
+                    <td>Removes the bottom border from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>77</td>
+                    <td><code>.border-danger</code></td>
+                    <td>Adds a red border to an element (indicates danger)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>78</td>
+                    <td><code>.border-dark</code></td>
+                    <td>Adds a dark border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>79</td>
+                    <td><code>.border-info</code></td>
+                    <td>Adds a teal border to an element (indicates information)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>80</td>
+                    <td><code>.border-left-0</code></td>
+                    <td>Removes the left border from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>81</td>
+                    <td><code>.border-light</code></td>
+                    <td>Adds a light grey border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>82</td>
+                    <td><code>.border-primary</code></td>
+                    <td>Adds a blue border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>83</td>
+                    <td><code>.border-right-0</code></td>
+                    <td>Removes the right border from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>84</td>
+                    <td><code>.border-top-0</code></td>
+                    <td>Removes the top border from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>85</td>
+                    <td><code>.border-secondary</code></td>
+                    <td>Adds a grey border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>86</td>
+                    <td><code>.border-success</code></td>
+                    <td>Adds a green border to an element (indicates success)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>87</td>
+                    <td><code>.border-warning</code></td>
+                    <td>Adds a orange border to an element (indicates warning)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>88</td>
+                    <td><code>.border-white</code></td>
+                    <td>Adds a white border to an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>89</td>
+                    <td><code>.border-0</code></td>
+                    <td>Removes all borders from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>90</td>
+                    <td><code>.breadcrumb</code></td>
+                    <td>A pagination. Indicates the current page's location within a navigational hierarchy</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>91</td>
+                    <td><code>.breadcrumb-item</code></td>
+                    <td>Styles list items or links inside the breadcrumb</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>92</td>
+                    <td><code>.btn</code></td>
+                    <td>Creates a basic button (gray background and rounded corners)</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>93</td>
+                    <td><code>.btn-block</code></td>
+                    <td>Creates a block level button that spans the entire width of the parent element</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>94</td>
+                    <td><code>.btn-dark</code></td>
+                    <td>Dark grey button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>95</td>
+                    <td><code>.btn-danger</code></td>
+                    <td>Red button. Indicates danger or a negative action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>96</td>
+                    <td><code>.btn-group</code></td>
+                    <td>Groups buttons together on a single line</td>
+                    <td>Button Groups</td>
+                </tr>
+                <tr> <td>97</td>
+                    <td><code>.btn-group-lg</code></td>
+                    <td>Large button group (makes all buttons in a button group larger - increased font-size and
+                        padding)</td>
+                    <td>Button Groups</td>
+                </tr>
+                <tr> <td>98</td>
+                    <td><code>.btn-group-sm</code></td>
+                    <td>Small button group (makes all buttons in a button group smaller)</td>
+                    <td>Button Groups</td>
+                </tr>
+                <tr> <td>99</td>
+                    <td><code>.btn-group-vertical</code></td>
+                    <td>Makes a button group appear vertically stacked</td>
+                    <td>Button Groups</td>
+                </tr>
+                <tr> <td>100</td>
+                    <td><code>.btn-info</code></td>
+                    <td>Teal button. Represents a neutral informative change or action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>101</td>
+                    <td><code>.btn-light</code></td>
+                    <td>Light grey button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>102</td>
+                    <td><code>.btn-link</code></td>
+                    <td>Makes a button look like a link (get button behavior)</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>103</td>
+                    <td><code>.btn-lg</code></td>
+                    <td>Large button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>104</td>
+                    <td><code>.btn-outline-dark</code></td>
+                    <td>Dark grey bordered/outlined button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>105</td>
+                    <td><code>.btn-outline-danger</code></td>
+                    <td>Red bordered/outlined button. Indicates danger or a negative action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>106</td>
+                    <td><code>.btn-outline-info</code></td>
+                    <td>Teal bordered/outlined button. Represents a neutral informative change or action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>107</td>
+                    <td><code>.btn-outline-light</code></td>
+                    <td>Light grey bordered/outlined button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>108</td>
+                    <td><code>.btn-outline-primary</code></td>
+                    <td>Blue bordered/outlined button.</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>109</td>
+                    <td><code>.btn-outline-secondary</code></td>
+                    <td>Grey bordered/outlined button. Indicates a "less" important action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>110</td>
+                    <td><code>.btn-outline-success</code></td>
+                    <td>Green bordered/outlined button. Indicates success or a positive action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>111</td>
+                    <td><code>.btn-outline-warning</code></td>
+                    <td>Orange bordered/outlined button. Represents warning or a negative action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>112</td>
+                    <td><code>.btn-primary</code></td>
+                    <td>Blue button. Indicates a something important</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>113</td>
+                    <td><code>.btn-sm</code></td>
+                    <td>Small button</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>114</td>
+                    <td><code>.btn-secondary</code></td>
+                    <td>Grey button. Indicates a "less" important action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>115</td>
+                    <td><code>.btn-success</code></td>
+                    <td>Green button. Indicates success or a positive action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>116</td>
+                    <td><code>.btn-toolbar</code></td>
+                    <td>Combine sets of button groups into button toolbars for more complex components</td>
+                    <td>Button Groups</td>
+                </tr>
+                <tr> <td>117</td>
+                    <td><code>.btn-warning</code></td>
+                    <td>Orange button. Represents warning or a negative action</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>118</td>
+                    <td><code>.card</code></td>
+                    <td>Creates a card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>119</td>
+                    <td><code>.card-body</code></td>
+                    <td>Container for card content</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>120</td>
+                    <td><code>.card-columns</code></td>
+                    <td>Container to create a masonry-like grid of cards</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>121</td>
+                    <td><code>.card-danger</code></td>
+                    <td>Adds a red background color to the card. Represents danger or a negative action</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>122</td>
+                    <td><code>.card-dark</code></td>
+                    <td>Adds a grey background color to the card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>123</td>
+                    <td><code>.card-deck</code></td>
+                    <td>Container to create a grid of cards that are of equal height and width</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>124</td>
+                    <td><code>.card-footer</code></td>
+                    <td>Card footer</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>125</td>
+                    <td><code>.card-group</code></td>
+                    <td>Container to create a grid of cards that are of equal height and width, without side margins
+                    </td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>126</td>
+                    <td><code>.card-header</code></td>
+                    <td>Card header</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>127</td>
+                    <td><code>.card-header-tabs</code></td>
+                    <td>Styles navigation tabs inside the card header</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>128</td>
+                    <td><code>.card-header-pills</code></td>
+                    <td>Styles navigation pills inside the card header</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>129</td>
+                    <td><code>.card-img-bottom</code></td>
+                    <td>Place the image at the bottom inside a card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>130</td>
+                    <td><code>.card-img-overlay</code></td>
+                    <td>Turns an image into a card background. Often used to add text on top of the image</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>131</td>
+                    <td><code>.card-img-top</code></td>
+                    <td>Place the image at the top inside a card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>132</td>
+                    <td><code>.card-info</code></td>
+                    <td>Adds a teal background color to the card. Represents some information</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>133</td>
+                    <td><code>.card-light</code></td>
+                    <td>Adds a light grey background color to the card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>134</td>
+                    <td><code>.card-link</code></td>
+                    <td>Adds a blue color to any link and a hover effect inside the card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>135</td>
+                    <td><code>.card-primary</code></td>
+                    <td>Adds a blue background color to the card. Represents something important</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>136</td>
+                    <td><code>.card-secondary</code></td>
+                    <td>Adds a grey background color to the card. Represents something "less" important</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>137</td>
+                    <td><code>.card-subtitle</code></td>
+                    <td>The .card-subtitle is used after a .card-title, and adds the following to an element:
+                        margin-top: -.375rem; margin-bottom: 0;</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>138</td>
+                    <td><code>.card-success</code></td>
+                    <td>Adds a green background color to the card. Indicates success or a positive action</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>139</td>
+                    <td><code>.card-text</code></td>
+                    <td>Used to remove bottom margins for a p element if it is the last child (or the only one), inside
+                        .card-body</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>140</td>
+                    <td><code>.card-title</code></td>
+                    <td>Adds a title to any heading element inside the card</td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>141</td>
+                    <td><code>.card-warning</code></td>
+                    <td>Adds a yellow/orange background color to the card. Represents a warning or a negative action
+                    </td>
+                    <td>Cards</td>
+                </tr>
+                <tr> <td>142</td>
+                    <td><code>.carousel</code></td>
+                    <td>Creates a carousel (slideshow)</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>143</td>
+                    <td><code>.carousel-caption</code></td>
+                    <td>Creates a caption text for each slide in the carousel</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>144</td>
+                    <td><code>.carousel-control-next</code></td>
+                    <td>Container for "next" carousel/item link</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>145</td>
+                    <td><code>.carousel-control-next-icon</code></td>
+                    <td>Used together with .carousel-control-next to create a "next" icon/button (right-pointed arrow)
+                    </td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>146</td>
+                    <td><code>.carousel-control-prev</code></td>
+                    <td>Container for "previous" carousel/item link</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>147</td>
+                    <td><code>.carousel-control-prev-icon</code></td>
+                    <td>Used together with .carousel-control-prev to create a "previous" icon/button (left-pointed
+                        arrow)</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>148</td>
+                    <td><code>.carousel-indicators</code></td>
+                    <td>Adds little dots/indicators at the bottom of each slide (which indicates how many slides there
+                        is in the carousel, and which slide the user are currently viewing)</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>149</td>
+                    <td><code>.carousel-inner</code></td>
+                    <td>Container for slide items</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>150</td>
+                    <td><code>.carousel-item</code></td>
+                    <td>Specifies the content of each slide</td>
+                    <td>Carousel</td>
+                </tr>
+                <tr> <td>151</td>
+                    <td><code>.clearfix</code></td>
+                    <td>Clears floats</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>152</td>
+                    <td><code>.close</code></td>
+                    <td>Styles a close icon. This is often used for alerts and modals. Often used together with the
+                        &times; symbol to create the actual icon (a better looking "x"). It floats right by default</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>153</td>
+                    <td><code>.col-auto</code></td>
+                    <td>Make form columns automatically size themselves based on their content</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>154</td>
+                    <td><code>.col-*</code></td>
+                    <td>Creates a column layout for extra small devices (and up/all devices, if not combined with other
+                        column classes). The * can be a number between 1 and 12</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>155</td>
+                    <td><code>.col-sm-*</code></td>
+                    <td>Creates a column layout for small devices (and up, if not combined with other column classes).
+                        The * can be a number between 1 and 12</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>156</td>
+                    <td><code>.col-md-*</code></td>
+                    <td>Creates a column layout for medium devices (and up, if not combined with other column classes).
+                        The * can be a number between 1 and 12</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>157</td>
+                    <td><code>.col-lg-*</code></td>
+                    <td>Creates a column layout for large devices (and up, if not combined with other column classes).
+                        The * can be a number between 1 and 12</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>158</td>
+                    <td><code>.col-xl-*</code></td>
+                    <td>Creates a column layout for extra large devices. The * can be a number between 1 and 12</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>159</td>
+                    <td><code>.collapse</code></td>
+                    <td>Indicates collapsible content - which can be hidden or shown on demand</td>
+                    <td>Collapse</td>
+                </tr>
+                <tr> <td>160</td>
+                    <td><code>.collapse show</code></td>
+                    <td>Show the collapsible content by default</td>
+                    <td>Collapse</td>
+                </tr>
+                <tr> <td>161</td>
+                    <td><code>.container</code></td>
+                    <td>Fixed width container with widths determined by screen sites. Equal margin on the left and
+                        right.</td>
+                    <td>Containers</td>
+                </tr>
+                <tr> <td>162</td>
+                    <td><code>.container-fluid</code></td>
+                    <td>A container that spans the full width of the screen</td>
+                    <td>Containers</td>
+                </tr>
+                <tr> <td>163</td>
+                    <td><code>.container-*</code></td>
+                    <td>Responsive containers</td>
+                    <td>Containers</td>
+                </tr>
+                <tr> <td>164</td>
+                    <td><code>.custom-checkbox</code></td>
+                    <td>A wrapper/container for custom checkboxes</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>165</td>
+                    <td><code>.custom-control</code></td>
+                    <td>A wrapper/container for custom forms</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>166</td>
+                    <td><code>.custom-control-input</code></td>
+                    <td>Customized form control</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>167</td>
+                    <td><code>.custom-control-inline</code></td>
+                    <td>Inline (horizontally - side by side) customized form controls</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>168</td>
+                    <td><code>.custom-control-label</code></td>
+                    <td>Customized label, when used together with a custom form control</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>169</td>
+                    <td><code>.custom-file</code></td>
+                    <td>Customized file upload</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>170</td>
+                    <td><code>.custom-file-input</code></td>
+                    <td>Customized file upload</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>171</td>
+                    <td><code>.custom-file-label</code></td>
+                    <td>Customized file label</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>172</td>
+                    <td><code>.custom-radio</code></td>
+                    <td>A wrapper/container for custom radio buttons</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>173</td>
+                    <td><code>.custom-range</code></td>
+                    <td>Customized range control</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>174</td>
+                    <td><code>.custom-select</code></td>
+                    <td>Customized select menu</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>175</td>
+                    <td><code>.custom-select-lg</code></td>
+                    <td>Large customized select menu</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>176</td>
+                    <td><code>.custom-select-sm</code></td>
+                    <td>Small customized select menu</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>177</td>
+                    <td><code>.custom-switch</code></td>
+                    <td>Customized toggle switch</td>
+                    <td>Custom Forms</td>
+                </tr>
+                <tr> <td>178</td>
+                    <td><code>.disabled</code></td>
+                    <td>Disables a button (adds opacity and a "no-parking-sign" icon on hover)</td>
+                    <td>Buttons</td>
+                </tr>
+                <tr> <td>179</td>
+                    <td><code>.disabled</code></td>
+                    <td>Disables a dropdown item (adds a grey text color and a "no-parking-sign" icon on hover)</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>180</td>
+                    <td><code>.disabled</code></td>
+                    <td>Disables a pagination link (cannot be clicked - adds a grey text color and a "no-parking-sign"
+                        icon on hover)</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>181</td>
+                    <td><code>.disabled</code></td>
+                    <td>Disables a list item in a list group (cannot be clicked - adds a light grey color and removes
+                        the hover effect on list item links)</td>
+                    <td>List Groups</td>
+                </tr>
+                <tr> <td>182</td>
+                    <td><code>.dropdown</code></td>
+                    <td>Creates a toggleable menu that allows the user to choose one value from a predefined list</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>183</td>
+                    <td><code>.dropdown-divider</code></td>
+                    <td>Used to separate links in the dropdown menu with a thin horizontal border</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>184</td>
+                    <td><code>.dropdown-header</code></td>
+                    <td>Used to add headers inside the dropdown menu</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>185</td>
+                    <td><code>.dropdown-item</code></td>
+                    <td>Creates a dropdown item (added to links or buttons inside .dropdown-menu)</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>186</td>
+                    <td><code>.dropdown-item-text</code></td>
+                    <td>Used to add plain text to a dropdown item, or used on links for default link styling</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>187</td>
+                    <td><code>.dropdown-menu</code></td>
+                    <td>Adds the default styles for the dropdown menu container</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>188</td>
+                    <td><code>.dropdown-menu-right</code></td>
+                    <td>Right-aligns a dropdown menu</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>189</td>
+                    <td><code>.dropdown-toggle</code></td>
+                    <td>Used on the button that should hide and show (toggle) the dropdown menu</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>190</td>
+                    <td><code>.dropleft</code></td>
+                    <td>Left-aligns the dropdown</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>191</td>
+                    <td><code>.dropright</code></td>
+                    <td>Right-aligns the dropdown</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>192</td>
+                    <td><code>.dropup</code></td>
+                    <td>Indicates a dropup menu (upwards instead of downwards)</td>
+                    <td>Dropdowns</td>
+                </tr>
+                <tr> <td>193</td>
+                    <td><code>.d-block</code></td>
+                    <td>Creates a block element (adds display:block)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>194</td>
+                    <td><code>.d-*-block</code></td>
+                    <td>Creates a block element on a specific screen width</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>195</td>
+                    <td><code>.d-inline</code></td>
+                    <td>Makes an element inline</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>196</td>
+                    <td><code>.d-*-inline</code></td>
+                    <td>Makes an element inline on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>197</td>
+                    <td><code>.d-inline-block</code></td>
+                    <td>Makes an element inline block</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>198</td>
+                    <td><code>.d-*-inline-block</code></td>
+                    <td>Makes an element inline block on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>199</td>
+                    <td><code>.d-flex</code></td>
+                    <td>Creates a flexbox container and transforms direct children into flex items</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>200</td>
+                    <td><code>.d-*-flex</code></td>
+                    <td>Creates a flexbox container on a specific screen size</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>201</td>
+                    <td><code>.d-inline-flex</code></td>
+                    <td>Creates an inline flexbox container</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>202</td>
+                    <td><code>.d-*-inline-flex</code></td>
+                    <td>Creates an inline flexbox container on a specific screen size</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>203</td>
+                    <td><code>.d-none</code></td>
+                    <td>Hides an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>204</td>
+                    <td><code>.d-*-none</code></td>
+                    <td>Hides an element on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>205</td>
+                    <td><code>.d-table</code></td>
+                    <td>Makes an element display as a table</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>206</td>
+                    <td><code>.d-*-table</code></td>
+                    <td>Makes an element display as a table on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>207</td>
+                    <td><code>.d-table-cell</code></td>
+                    <td>Makes an element display as a table cell</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>208</td>
+                    <td><code>.d-*-table-cell</code></td>
+                    <td>Makes an element display as a table cell on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>209</td>
+                    <td><code>.d-table-row</code></td>
+                    <td>Makes an element display as a table row</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>210</td>
+                    <td><code>.d-*-table-row</code></td>
+                    <td>Makes an element display as a table row on a specific screen size</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>211</td>
+                    <td><code>.embed-responsive</code></td>
+                    <td>Container for embedded content. Makes videos or slideshows scale properly on any device</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>212</td>
+                    <td><code>.embed-responsive-16by9</code></td>
+                    <td>Container for embedded content. Creates an 16:9 aspect ratio embedded content</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>213</td>
+                    <td><code>.embed-responsive-3by4</code></td>
+                    <td>Container for embedded content. Creates an 3:4 aspect ratio embedded content</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>214</td>
+                    <td><code>.embed-responsive-item</code></td>
+                    <td>Used inside .embed-responsive. Scales the video nicely to the parent element</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>215</td>
+                    <td><code>.fade</code></td>
+                    <td>Adds a fading effect when closing an alert box</td>
+                    <td>Alerts</td>
+                </tr>
+                <tr> <td>216</td>
+                    <td><code>.fade</code></td>
+                    <td>Adds a fading effect when showing tab/pill content</td>
+                    <td>Navs</td>
+                </tr>
+                <tr> <td>217</td>
+                    <td><code>.fade</code></td>
+                    <td>Adds a fading effect when opening a modal</td>
+                    <td>Modal</td>
+                </tr>
+                <tr> <td>218</td>
+                    <td><code>.fixed-bottom</code></td>
+                    <td>Makes an element stay at the bottom of the screen (sticky/fixed)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>219</td>
+                    <td><code>.fixed-top</code></td>
+                    <td>Makes an element stay at the top of the screen (sticky/fixed)</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>220</td>
+                    <td><code>.flex-column</code></td>
+                    <td>Display flex items vertically</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>221</td>
+                    <td><code>.flex-*-column</code></td>
+                    <td>Display flex items vertically on different screen sizes:</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>222</td>
+                    <td><code>.flex-column-reverse</code></td>
+                    <td>Display flex items vertically, reversed</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>223</td>
+                    <td><code>.flex-*-column-reverse</code></td>
+                    <td>Display flex items vertically, reversed, on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>224</td>
+                    <td><code>.flex-fill</code></td>
+                    <td>Used on flex items to force it/them into equal width columns</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>225</td>
+                    <td><code>.flex-*-fill</code></td>
+                    <td>Force flex items into equal widths on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>226</td>
+                    <td><code>.flex-grow-0|1</code></td>
+                    <td>Used on a single flex item to take up the rest of the available space</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>227</td>
+                    <td><code>.flex-nowrap</code></td>
+                    <td>Don't wrap flex items</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>228</td>
+                    <td><code>.flex-*-nowrap</code></td>
+                    <td>Don't wrap items on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>229</td>
+                    <td><code>.flex-shrink-0|1</code></td>
+                    <td>Used on a single flex item to shrink it if necessary</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>230</td>
+                    <td><code>.flex-row</code></td>
+                    <td>Display flex items horizontally (side by side)</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>231</td>
+                    <td><code>.flex-*-row</code></td>
+                    <td>Display flex items horizontally on a specific screen size</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>232</td>
+                    <td><code>.flex-row-reverse</code></td>
+                    <td>Display flex items right-aligned and horizontally</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>233</td>
+                    <td><code>.flex-*-row-reverse</code></td>
+                    <td>Display flex items right-aligned and horizontally on a specific screen size</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>234</td>
+                    <td><code>.flex-wrap</code></td>
+                    <td>Wrap flex items</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>235</td>
+                    <td><code>.flex-*-wrap</code></td>
+                    <td>Wrap items on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>236</td>
+                    <td><code>.flex-wrap-reverse</code></td>
+                    <td>Wrap flex items, in reversed order</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>237</td>
+                    <td><code>.flex-*-wrap-reverse</code></td>
+                    <td>Wrap flex items, in reversed order on different screens</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>238</td>
+                    <td><code>.float-left</code></td>
+                    <td>Floats an element to the left</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>239</td>
+                    <td><code>.float-*-left</code></td>
+                    <td>Floats an element to the left on different screens</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>240</td>
+                    <td><code>.float-none</code></td>
+                    <td>Remove floats from an element</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>241</td>
+                    <td><code>.float-right</code></td>
+                    <td>Floats an element to the right</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>242</td>
+                    <td><code>.float-*-right</code></td>
+                    <td>Floats an element to the left on different screens</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>243</td>
+                    <td><code>.font-italic</code></td>
+                    <td>Italic text</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>244</td>
+                    <td><code>.font-weight-bold</code></td>
+                    <td>Bold text</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>245</td>
+                    <td><code>.font-weight-bolder</code></td>
+                    <td>Bolder text (font-weight:bolder)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>246</td>
+                    <td><code>.font-weight-light</code></td>
+                    <td>Light weight text (font-weight:300) </td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>247</td>
+                    <td><code>.font-weight-lighter</code></td>
+                    <td>Lighter weight text (font-weight:lighter) </td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>248</td>
+                    <td><code>.font-weight-normal</code></td>
+                    <td>Normal text (font-weight:400)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>249</td>
+                    <td><code>.form-check</code></td>
+                    <td>Container for checkboxes. Adds proper padding</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>250</td>
+                    <td><code>.form-check-inline</code></td>
+                    <td>Makes checkboxes appear on the same line (horizontally)</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>251</td>
+                    <td><code>.form-check-input</code></td>
+                    <td>Styles checkboxes with proper margins</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>252</td>
+                    <td><code>.form-check-label</code></td>
+                    <td>Ensures proper margins for labels used together with checkboxes</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>253</td>
+                    <td><code>.form-control</code></td>
+                    <td>Used on input, textarea, and select elements to span the entire width of the page and make them
+                        responsive</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>254</td>
+                    <td><code>.form-control-file</code></td>
+                    <td>Adds display:block and width:100% to input filed with type="file"</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>255</td>
+                    <td><code>.form-control-lg</code></td>
+                    <td>Large form control</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>256</td>
+                    <td><code>.form-control-plaintext</code></td>
+                    <td>Styles a form control as plain text</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>257</td>
+                    <td><code>.form-control-range</code></td>
+                    <td>Adds display:block and width:100% to input filed with type="range"</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>258</td>
+                    <td><code>.form-control-sm</code></td>
+                    <td>Small form control</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>259</td>
+                    <td><code>.form-group</code></td>
+                    <td>Container for form input and label</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>260</td>
+                    <td><code>.form-inline</code></td>
+                    <td>Makes a <form> left-aligned with inline-block controls (This only applies to forms within
+                            viewports that are at least 768px wide)</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>261</td>
+                    <td><code>.form-row</code></td>
+                    <td>Container for responsive columns (less left and right margins than .row/overrides default column
+                        gutters)</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>262</td>
+                    <td><code>.h1 - .h6</code></td>
+                    <td>Makes an element look like a heading of the chosen class (h1-h6)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>263</td>
+                    <td><code>.h-25</code></td>
+                    <td>Sets the height of an element to 25%</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>264</td>
+                    <td><code>.h-50</code></td>
+                    <td>Sets the height of an element to 50%</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>265</td>
+                    <td><code>.h-75</code></td>
+                    <td>Sets the height of an element to 75%</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>266</td>
+                    <td><code>.h-100</code></td>
+                    <td>Sets the height of an element to 100%</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>267</td>
+                    <td><code>.img-fluid</code></td>
+                    <td>Responsive image (adds max-width:100% and height:auto)</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>268</td>
+                    <td><code>.img-thumbnail</code></td>
+                    <td>Shapes an image to a thumbnail (thin light grey borders)</td>
+                    <td>Images</td>
+                </tr>
+                <tr> <td>269</td>
+                    <td><code>.initialism</code></td>
+                    <td>Displays the text inside an <abbr> element in a slightly smaller font size</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>270</td>
+                    <td><code>.input-group</code></td>
+                    <td>Container to enhance an input by adding an icon, text or a button in front or behind the input
+                        field as a "help text"</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>271</td>
+                    <td><code>.input-group-append</code></td>
+                    <td>Input group container for adding help text behind an input field</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>272</td>
+                    <td><code>.input-group-lg</code></td>
+                    <td>Large input group</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>273</td>
+                    <td><code>.input-group-prepend</code></td>
+                    <td>Input group container for adding help text in front of an input field</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>274</td>
+                    <td><code>.input-group-sm</code></td>
+                    <td>Small input group</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>275</td>
+                    <td><code>.input-group-text</code></td>
+                    <td>Styles the specified help text in an input group</td>
+                    <td>Input Group</td>
+                </tr>
+                <tr> <td>276</td>
+                    <td><code>.input-lg</code></td>
+                    <td>Large input field</td>
+                    <td>Input Sizing</td>
+                </tr>
+                <tr> <td>277</td>
+                    <td><code>.input-sm</code></td>
+                    <td>Small input field</td>
+                    <td>Input Sizing</td>
+                </tr>
+                <tr> <td>278</td>
+                    <td><code>.invalid-feedback</code></td>
+                    <td>Creates a custom validation message used in validated forms (red text color)</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>279</td>
+                    <td><code>.invalid-tooltip</code></td>
+                    <td>Creates a custom validation message used in validated forms (red tooltip)</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>280</td>
+                    <td><code>.invisible</code></td>
+                    <td>Make an element invisible</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>281</td>
+                    <td><code>.is-invalid</code></td>
+                    <td>Validates a form element (adds a red border to input fields). Note: for server side</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>282</td>
+                    <td><code>.is-valid</code></td>
+                    <td>Validates a form element (adds a green border to input fields). Note: for server side</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>283</td>
+                    <td><code>.jumbotron</code></td>
+                    <td>Creates a padded grey heading/box with rounded corners that enlarges the font sizes of the text
+                        inside it. Used for calling extra attention to some special content or information</td>
+                    <td>Jumbotron</td>
+                </tr>
+                <tr> <td>284</td>
+                    <td><code>.jumbotron-fluid</code></td>
+                    <td>Creates a full-width jumbotron (grey padded heading) without rounded borders</td>
+                    <td>Jumbotron</td>
+                </tr>
+                <tr> <td>285</td>
+                    <td><code>.justify-content-*</code></td>
+                    <td>Aligns flex items from the start, at the end, centered, in between and "around"</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>286</td>
+                    <td><code>.justify-content-*-around</code></td>
+                    <td>Aligns flex items "around" on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>287</td>
+                    <td><code>.justify-content-*-between</code></td>
+                    <td>Aligns flex items in "between" on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>288</td>
+                    <td><code>.justify-content-*-center</code></td>
+                    <td>Aligns flex items in the center on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>289</td>
+                    <td><code>.justify-content-*-end</code></td>
+                    <td>Aligns flex items at the end on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>290</td>
+                    <td><code>.justify-content-*-start</code></td>
+                    <td>Aligns flex items from the start on different screen sizes</td>
+                    <td>Flex</td>
+                </tr>
+                <tr> <td>291</td>
+                    <td><code>.lead</code></td>
+                    <td>Increase the font size and line height of a paragraph</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>292</td>
+                    <td><code>.list-group</code></td>
+                    <td>Creates a bordered list group for <li> elements</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>293</td>
+                    <td><code>.list-group-flush</code></td>
+                    <td>Removes some borders and rounded corners from list items in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>294</td>
+                    <td><code>.list-group-horizontal</code></td>
+                    <td>Display list items horizontally instead of vertically (side-by-side instead of on top of each
+                        other)</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>295</td>
+                    <td><code>.list-group-horizontal-*</code></td>
+                    <td>Display list items horizontally instead of vertically on different screen sizes</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>296</td>
+                    <td><code>.list-group-item</code></td>
+                    <td>Added to each <li> element in the list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>297</td>
+                    <td><code>.list-group-item-action</code></td>
+                    <td>Added to links inside the list group to make them stand out on hover (darker background)</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>298</td>
+                    <td><code>.list-group-item-danger</code></td>
+                    <td>Red background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>299</td>
+                    <td><code>.list-group-item-dark</code></td>
+                    <td>Dark grey background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>300</td>
+                    <td><code>.list-group-item-info</code></td>
+                    <td>Light-blue background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>301</td>
+                    <td><code>.list-group-item-light</code></td>
+                    <td>Light grey background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>302</td>
+                    <td><code>.list-group-item-primary</code></td>
+                    <td>Blue background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>303</td>
+                    <td><code>.list-group-item-success</code></td>
+                    <td>Green background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>304</td>
+                    <td><code>.list-group-item-warning</code></td>
+                    <td>Yellow background color for a list item in a list group</td>
+                    <td>List Group</td>
+                </tr>
+                <tr> <td>305</td>
+                    <td><code>.list-inline</code></td>
+                    <td>Places all list items on a single line (used together with .list-inline-item on each <li>
+                            elements)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>306</td>
+                    <td><code>.list-inline-item</code></td>
+                    <td>Places all list items on a single line (used together with .list-inline on the parent <ul>
+                            element)</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>307</td>
+                    <td><code>.list-unstyled</code></td>
+                    <td>Removes all default list-style (bullets, left margin, etc.) styling from a &lt;ul&gt; or &lt;ol&gt; list
+                    </td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>308</td>
+                    <td><code>.mark</code></td>
+                    <td>Highlights text: Highlighted text</td>
+                    <td>Typography</td>
+                </tr>
+                <tr> <td>309</td>
+                    <td><code>.media</code></td>
+                    <td>Aligns media objects together with content (like images or videos - often used for comments in a
+                        blog post etc)</td>
+                    <td>Media Objects</td>
+                </tr>
+                <tr> <td>310</td>
+                    <td><code>.media-body</code></td>
+                    <td>Container for media content</td>
+                    <td>Media Objects</td>
+                </tr>
+                <tr> <td>311</td>
+                    <td><code>.modal</code></td>
+                    <td>Identifies the content as a modal and brings focus to it</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>312</td>
+                    <td><code>.modal-body</code></td>
+                    <td>Defines the style for the body of the modal. Add any HTML markup here (p, img, etc)</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>313</td>
+                    <td><code>.modal-content</code></td>
+                    <td>Styles the modal (border, background-color, etc). Inside this, add the modal's header, body and
+                        footer, if needed</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>314</td>
+                    <td><code>.modal-dialog-centered</code></td>
+                    <td>Centers the modal vertically and horizontally within the page</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>315</td>
+                    <td><code>.modal-dialog-scrollable</code></td>
+                    <td>Adds a scrollbar inside the modal</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>316</td>
+                    <td><code>.modal-footer</code></td>
+                    <td>The footer of the modal (often contains an action button and a close button)</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>317</td>
+                    <td><code>.modal-header</code></td>
+                    <td>The header of the modal (often contains a title and a close button)</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>318</td>
+                    <td><code>.modal-lg</code></td>
+                    <td>Large modal (wider than default)</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>319</td>
+                    <td><code>.modal-sm</code></td>
+                    <td>Small modal (less width)</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>320</td>
+                    <td><code>.modal-xl</code></td>
+                    <td>Extra large modal</td>
+                    <td>Modals</td>
+                </tr>
+                <tr> <td>321</td>
+                    <td><code>.m-# / m-*-#</code></td>
+                    <td>Responsive margin classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>322</td>
+                    <td><code>.mt-# / mt-*-#</code></td>
+                    <td>Responsive top margin classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>323</td>
+                    <td><code>.mb-# / mb-*-#</code></td>
+                    <td>Responsive bottom margin classes. * can be sm, md, lg or xl. # can be a number between 0 and 5
+                    </td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>324</td>
+                    <td><code>.ml-# / ml-*-#</code></td>
+                    <td>Responsive left margin classes. * can be sm, md, lg or xl. # can be a number between 0 and 5
+                    </td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>325</td>
+                    <td><code>.mr-# / mr-*-#</code></td>
+                    <td>Responsive right margin classes. * can be sm, md, lg or xl. # can be a number between 0 and 5
+                    </td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>326</td>
+                    <td><code>.mx-# / mx-*-#</code></td>
+                    <td>Responsive left and right margin auto (horizontal) classes. * can be sm, md, lg or xl. # can be
+                        a number between 0 and 5</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>327</td>
+                    <td><code>.my-# / my-*-#</code></td>
+                    <td>Responsive top and bottom margin auto (vertical) classes. * can be sm, md, lg or xl. # can be a
+                        number between 0 and 5</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>328</td>
+                    <td><code>.mx-auto</code></td>
+                    <td>Centers an element horizontally</td>
+                    <td>Utilities</td>
+                </tr>
+                <tr> <td>329</td>
+                    <td><code>.nav nav-tabs</code></td>
+                    <td>Creates a tabbed menu</td>
+                    <td>Tabs</td>
+                </tr>
+                <tr> <td>330</td>
+                    <td><code>.nav nav-pills</code></td>
+                    <td>Creates a pill menu</td>
+                    <td>Tabs</td>
+                </tr>
+                <tr> <td>331</td>
+                    <td><code>.nav-justified</code></td>
+                    <td>Justifies tab/pill links with an equal width</td>
+                    <td>Tabs</td>
+                </tr>
+                <tr> <td>332</td>
+                    <td><code>.navbar</code></td>
+                    <td>Creates a navigation bar</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>333</td>
+                    <td><code>.navbar-nav</code></td>
+                    <td>Container for navigation links inside the .navbar container</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>334</td>
+                    <td><code>.navbar-brand</code></td>
+                    <td>Added to a link or a header element inside the navbar to represent a logo or a header</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>335</td>
+                    <td><code>.navbar-collapse</code></td>
+                    <td>Collapses the navbar (hidden and replaced with a menu/hamburger icon on mobile phones and small
+                        tablets)</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>336</td>
+                    <td><code>.navbar-expand-*</code></td>
+                    <td>Responsive collapsible class - stacks the navbar vertically on small (sm), medium (md), large
+                        (lg) or extra large (xl) screens</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>337</td>
+                    <td><code>.navbar-dark</code></td>
+                    <td>Adds a white text color to all links in the navbar</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>338</td>
+                    <td><code>.navbar-light</code></td>
+                    <td>Adds a black text color to all links in the navbar</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>339</td>
+                    <td><code>.navbar-text</code></td>
+                    <td>Vertically align any elements inside the navbar that are not links (ensures proper padding)</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>340</td>
+                    <td><code>.navbar-toggler</code></td>
+                    <td>Styles the button that should open the navbar on small screens. Automatically styled as a
+                        hamburger/three bars</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>341</td>
+                    <td><code>.nav-link</code></td>
+                    <td>Used to style links/anchors inside the navbar</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>342</td>
+                    <td><code>.nav-item</code></td>
+                    <td>Used to style list items inside the navbar</td>
+                    <td>Navbar</td>
+                </tr>
+                <tr> <td>343</td>
+                    <td><code>.needs-validation</code></td>
+                    <td>Adds validation styles to a submitted form</td>
+                    <td>Forms</td>
+                </tr>
+                <tr> <td>344</td>
+                    <td><code>.no-gutters</code></td>
+                    <td>Remove gutters/extra space from columns</td>
+                    <td>Grid System</td>
+                </tr>
+                <tr> <td>345</td>
+                    <td><code>.page-item</code></td>
+                    <td>Styles list items inside a pagination</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>346</td>
+                    <td><code>.page-link</code></td>
+                    <td>Styles links inside a pagination</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>347</td>
+                    <td><code>.pagination</code></td>
+                    <td>Creates a pagination (Useful when you have a web site with lots of pages</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>348</td>
+                    <td><code>.pagination-lg</code></td>
+                    <td>Large pagination (each pagination link gets a bigger font-size and more padding)</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>349</td>
+                    <td><code>.pagination-sm</code></td>
+                    <td>Small pagination (each pagination link gets a smaller font size and less padding)</td>
+                    <td>Pagination</td>
+                </tr>
+                <tr> <td>350</td>
+                    <td><code>.pre-scrollable</code></td>
+                    <td>Makes a
+                        <pre> element scrollable (max-height of 350px and provide a y-axis scrollbar)</td><td>Helpers</td></tr>
+<tr> <td>351</td><td><code>.progress</code></td><td>Container for progress bars</td><td>Progress Bars</td></tr>
+<tr> <td>352</td><td><code>.progress-bar</code></td><td>Creates a progress bar</td><td>Progress Bars</td></tr>
+<tr> <td>353</td><td><code>.progress-bar-animated</code></td><td>Animates the progress bar (used together with stripes)</td><td>Progress Bars</td></tr>
+<tr> <td>354</td><td><code>.progress-bar-striped</code></td><td>Adds stripes to the progress bar</td><td>Progress Bars</td></tr>
+<tr> <td>355</td><td><code>.p-# / p-*-#</code></td><td>Responsive padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>356</td><td><code>.pt-# / pt-*-#</code></td><td>Responsive top padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>357</td><td><code>.pb-# / pb-*-#</code></td><td>Responsive bottom padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>358</td><td><code>.pl-# / pl-*-#</code></td><td>Responsive left padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>359</td><td><code>.pr-# / pr-*-#</code></td><td>Responsive right padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>360</td><td><code>.py-# / py-*-#</code></td><td>Responsive top and bottom padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>361</td><td><code>.px-# / px-*-#</code></td><td>Responsive left and right padding classes. * can be sm, md, lg or xl. # can be a number between 0 and 5</td><td>Utilities</td></tr>
+<tr> <td>362</td><td><code>.rounded</code></td><td>Adds rounded corners to an element</td><td>Utilities</td></tr>
+<tr> <td>363</td><td><code>.rounded-bottom</code></td><td>Adds bottom rounded corners to an element</td><td>Utilities</td></tr>
+<tr> <td>364</td><td><code>.rounded-circle</code></td><td>Shapes an element to a circle (not supported in IE8 and earlier)</td><td>Utilities</td></tr>
+<tr> <td>365</td><td><code>.rounded-left</code></td><td>Adds left rounded corners of an element</td><td>Utilities</td></tr>
+<tr> <td>366</td><td><code>.rounded-right</code></td><td>Adds right rounded corners to an element</td><td>Utilities</td></tr>
+<tr> <td>367</td><td><code>.rounded-top</code></td><td>Adds top rounded corners to an element</td><td>Utilities</td></tr>
+<tr> <td>368</td><td><code>.rounded-0</code></td><td>Removes rounded corners from an element</td><td>Utilities</td></tr>
+<tr> <td>369</td><td><code>.row</code></td><td>Container for responsive columns</td><td>Grid System</td></tr>
+<tr> <td>370</td><td><code>.row-cols-*</code></td><td>Set the number of columns that should appear next to each other</td><td>Grid System</td></tr>
+<tr> <td>371</td><td><code>.shadow</code></td><td>Adds a shadow to an element</td><td>Utilities</td></tr>
+<tr> <td>372</td><td><code>.shadow-lg</code></td><td>Adds a large shadow to an element</td><td>Utilities</td></tr>
+<tr> <td>373</td><td><code>.shadow-none</code></td><td>Removes shadows from an element</td><td>Utilities</td></tr>
+<tr> <td>374</td><td><code>.shadow-sm</code></td><td>Adds a small shadow to an element</td><td>Utilities</td></tr>
+<tr> <td>375</td><td><code>.small</code></td><td>Creates a lighter, secondary text in any heading</td><td>Typography</td></tr>
+<tr> <td>376</td><td><code>.spinner-border</code></td><td>Creates a spinner/loader</td><td>Spinners</td></tr>
+<tr> <td>377</td><td><code>.spinner-border-sm</code></td><td>Creates a smaller spinner/loader</td><td>Spinners</td></tr>
+<tr> <td>378</td><td><code>.spinner-grow</code></td><td>Creates a spinner/loader that "grows"</td><td>Spinners</td></tr>
+<tr> <td>379</td><td><code>.spinner-grow-sm</code></td><td>Creates a smaller spinner/loader that "grows"</td><td>Spinners</td></tr>
+<tr> <td>380</td><td><code>.sr-only</code></td><td>Hides an element on all devices except for screen readers</td><td>Utilities</td></tr>
+<tr> <td>381</td><td><code>.sr-only-focusable</code></td><td>Hides an element on all devices except for screen readers</td><td>Utilities</td></tr>
+<tr> <td>382</td><td><code>.sticky-top</code></td><td>Makes an element stay sticky/fixed at the top of the page when you scroll past it</td><td>Utilities</td></tr>
+<tr> <td>383</td><td><code>.stretched-link</code></td><td>Added to a link to make its containing block (parent) clickable (works only for parent elements with position:relative)</td><td>Utilities</td></tr>
+<tr> <td>384</td><td><code>.tab-content</code></td><td>Used together with .tab-pane to creates toggleable/dynamic tabs/pills</td><td>Tabs</td></tr>
+<tr> <td>385</td><td><code>.tab-pane</code></td><td>Used together with .tab-content to creates toggleable/dynamic tabs/pills</td><td>Tabs</td></tr>
+<tr> <td>386</td><td><code>.table</code></td><td>Adds basic styling to a table (padding, bottom borders, etc)</td><td>Tables</td></tr>
+<tr> <td>387</td><td><code>.table-active</code></td><td>Adds a grey background color to the table row (&lt;tr&gt; or table cell (&lt;td&gt;) (same color used on hover)</td><td>Tables</td></tr>
+<tr> <td>388</td><td><code>.table-bordered</code></td><td>Adds borders on all sides of the table and cells</td><td>Tables</td></tr>
+<tr> <td>389</td><td><code>.table-borderless</code></td><td>Remove borders from a table</td><td>Tables</td></tr>
+<tr> <td>390</td><td><code>.table-condensed</code></td><td>Makes a table more compact by cutting cell padding in half</td><td>Tables</td></tr>
+<tr> <td>391</td><td><code>.table-dark</code></td><td>Adds a black background with white text to the table</td><td>Tables</td></tr>
+<tr> <td>392</td><td><code>.table-hover</code></td><td>Creates a hoverable table (adds a grey background color on table rows on hover)</td><td>Tables</td></tr>
+<tr> <td>393</td><td><code>.table-responsive-*</code></td><td>Makes a table responsive (adds a horizontal scrollbar when needed). By default, the scrollbar is added to the table on screens that are less than 992px wide (if needed). There's no difference when viewing anything lager than 992px wide. However, you can use sm|md|lg|xl to decide WHEN the table should get a scrollbar, depending on the screen width</td><td>Tables</td></tr>
+<tr> <td>394</td><td><code>.table-striped</code></td><td>Adds zebra-stripes to a table</td><td>Tables</td></tr>
+<tr> <td>395</td><td><code>.text-break</code></td><td>Prevents long text from breaking layout</td><td>Typography</td></tr>
+<tr> <td>396</td><td><code>.text-capitalize</code></td><td>Indicates capitalized text</td><td>Typography</td></tr>
+<tr> <td>397</td><td><code>.text-center</code></td><td>Center-aligns text</td><td>Typography</td></tr>
+<tr> <td>398</td><td><code>.text-*-center</code></td><td>Center-aligns text on different screens</td><td>Typography</td></tr>
+<tr> <td>399</td><td><code>.text-danger</code></td><td>Red text color. Indicates danger</td><td>Colors</td></tr>
+<tr> <td>400</td><td><code>.text-dark</code></td><td>Dark grey text color</td><td>Typography</td></tr>
+<tr> <td>401</td><td><code>.text-decoration-none</code></td><td>Removes the underline from a link</td><td>Typography</td></tr>
+<tr> <td>402</td><td><code>.text-hide</code></td><td>Hides text (helps replace an element's text content with a background image)</td><td>Typography</td></tr>
+<tr> <td>403</td><td><code>.text-info</code></td><td>Light-blue text color. Indicates information</td><td>Colors</td></tr>
+<tr> <td>404</td><td><code>.text-light</code></td><td>Light grey text color</td><td>Colors</td></tr>
+<tr> <td>405</td><td><code>.text-justify</code></td><td>Indicates justified text</td><td>Typography</td></tr>
+<tr> <td>406</td><td><code>.text-left</code></td><td>Aligns the text to the left</td><td>Typography</td></tr>
+<tr> <td>407</td><td><code>.text-*-left</code></td><td>Left-aligns text on different screens</td><td>Typography</td></tr>
+<tr> <td>408</td><td><code>.text-lowercase</code></td><td>Changes text to lowercase</td><td>Typography</td></tr>
+<tr> <td>409</td><td><code>.text-muted</code></td><td>Grey text color</td><td>Colors</td></tr>
+<tr> <td>410</td><td><code>.text-nowrap</code></td><td>Prevents the text from wrapping</td><td>Typography</td></tr>
+<tr> <td>411</td><td><code>.text-primary</code></td><td>Blue text color. Indicates something important</td><td>Colors</td></tr>
+<tr> <td>412</td><td><code>.text-secondary</code></td><td>Grey text color. Indicates something "less" important</td><td>Colors</td></tr>
+<tr> <td>413</td><td><code>.text-reset</code></td><td>Resets the color of a text or a link (inherits the color from its parent)</td><td>Typography</td></tr>
+<tr> <td>414</td><td><code>.text-right</code></td><td>Aligns text to the right</td><td>Typography</td></tr>
+<tr> <td>415</td><td><code>.text-*-right</code></td><td>Right-aligns text on different screens</td><td>Typography</td></tr>
+<tr> <td>416</td><td><code>.text-success</code></td><td>Green text color. Indicates success</td><td>Colors</td></tr>
+<tr> <td>417</td><td><code>.text-uppercase</code></td><td>Makes text uppercase</td><td>Typography</td></tr>
+<tr> <td>418</td><td><code>.text-warning</code></td><td>Yellow/orange text color. Indicates warning</td><td>Colors</td></tr>
+<tr> <td>419</td><td><code>.text-white</code></td><td>White text color</td><td>Colors</td></tr>
+<tr> <td>420</td><td><code>.thead-dark</code></td><td>Adds a black background color to table headers</td><td>Tables</td></tr>
+<tr> <td>421</td><td><code>.thead-light</code></td><td>Adds a grey background color to table headers</td><td>Tables</td></tr>
+<tr> <td>422</td><td><code>.toast</code></td><td>Creates a toast (alert box that disappears after a few seconds)</td><td>Toast</td></tr>
+<tr> <td>423</td><td><code>.toast-body</code></td><td>Toast body</td><td>Toast</td></tr>
+<tr> <td>424</td><td><code>.toast-header</code></td><td>Toast header</td><td>Toast</td></tr>
+<tr> <td>425</td><td><code>.valid-feedback</code></td><td>Creates a custom validation message used in validated forms (green text color)</td><td>Forms</td></tr>
+<tr> <td>426</td><td><code>.valid-tooltip</code></td><td>Creates a custom validation message used in validated forms (green tooltip)</td><td>Forms</td></tr>
+<tr> <td>427</td><td><code>.visible</code></td><td>Make an element visible</td><td>Utilities</td></tr>
+<tr> <td>428</td><td><code>.was-validated</code></td><td>Adds validation styles to a form element</td><td>Forms</td></tr>
+<tr> <td>429</td><td><code>.w-25</code></td><td>Sets the width of an element to 25%</td><td>Utilities</td></tr>
+<tr> <td>430</td><td><code>.w-50</code></td><td>Sets the width of an element to 50%</td><td>Utilities</td></tr>
+<tr> <td>431</td><td><code>.w-75</code></td><td>Sets the width of an element to 75%</td><td>Utilities</td></tr>
+<tr> <td>432</td><td><code>.w-100</code></td><td>Sets the width of an element to 100%</td><td>Utilities</td></tr>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
     </div>
-    <div class="BackToTop">
-        BackToTop
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
